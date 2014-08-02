@@ -1,4 +1,4 @@
 GameFacebookShare
 =================
 
-Compartilhar score no facbeook pelo Corona SDK
+Compartilhar score no facebook pelo Corona SDK
