@@ -1,0 +1,41 @@
+settings =
+{
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	iphone =
+	{
+		plist =
+		{
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+			CFBundleLocalizations =
+			{
+				"English",
+				"French",
+				"German",
+				"Italian",
+			 	"Spanish",
+			 	"Portuguese"
+			},
+		},
+	},
+
+	android =
+    {
+        androidPermissions = {
+			"android.permission.INTERNET",
+			"android.permission.ACCESS_NETWORK_STATE",
+			"android.permission.READ_PHONE_STATE",
+		},
+  		googlePlayGamesAppId = "1050604847881"
+    },
+}
