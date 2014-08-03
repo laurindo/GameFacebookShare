@@ -53,7 +53,7 @@ new = function ( params )
                 end
                 
             end
-            local fbAppID = "meu-id-facebook-app"
+            local fbAppID = "APP ID"
             local function getPermissions(event)
                 if(event.type == "session") then
                     facebook.logout()
